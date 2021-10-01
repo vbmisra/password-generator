@@ -42,6 +42,20 @@ header {
   padding: 30px 40px;
 }
 
+.option {
+  margin: 10px;
+}
+
+#clear {
+  margin-top: 30px;
+  float: right;
+}
+
+input[type="radio"].option:hover {
+  cursor: pointer;
+  border: 2px solid black;
+}
+
 .card-header::after {
   content: " ";
   display: block;
