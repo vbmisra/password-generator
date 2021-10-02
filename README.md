@@ -1,30 +1,20 @@
 # password-generator
+* Security is at the forefront of everything on the web these days. A strong password is essential, especially in an increasingly digital and online world. With that in mind, as a developer, I created a web application that automatically generates a password based on criteria defined by the user.
 
-Needs:
-- click button to generate secure password
-- after clicking button, you are presented with a series of prompts for password criteria
-- after being prompted to select criteria, you are given options for which criteria to include in the password
-- answer to each criteria prompt is validated and at least one character type should be selected
-* store character types in separate arrays
-* use random number selector to call on a specific value within array
-- when all prompts are answered, password is generated that matches selected criteria
-- password is either displayed in an alert or written to the page
+## About the Project
+This application generates a password based on criteria input by the user. When the user first opens the webpage, they are prompted to enter the desired character length of the password in an alert window. Once the user inputs that information, they may choose any combination of the 4 password critera - upper case letters, lower case letters, numbers, and special characters. After making the choices, the user then clicks the "generate password" button, and a password is revealed that matches the critera selections and length the user defined.
 
-Criteria:
-- length of password (between 8 - 128 characters)
-- character types: lowercase, uppercase, numeric, and/or special characters
+## Screenshot
+Attached is the pathway to a screenshot of the web application:
 
+![image info](./password-gen-screenshot.png)
 
-Workflow:
-1. "generate password" button is clicked
-2. Alert (confirm option) is displayed where it says "please select which criteria to include"
-3. Length is a user input
-4. Character types are check boxes
-5. Button to click "done" when finished selecting criteria
-6. verify at least one option is clicked
-7. password is generated
+## Getting Started
 
-Thoughts:
-- make one massive array with each character type identified?
-- utilize for loop to build password (i < length specified by user)
-- concatenate arrays together based on option specified (if uppercase is checked, concatenate char.toUpperCase)
+Enter the following link into your browser to use this application:
+
+https://vbmisra.github.io/password-generator/
+
+To view the applications code, visit the Github repository here:
+
+https://github.com/vbmisra/password-generator
